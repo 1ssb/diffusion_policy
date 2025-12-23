@@ -28,9 +28,9 @@ logging:
   group: null
   id: null
   mode: online
-  name: 2023.01.16-20.20.06_train_diffusion_unet_hybrid_pusht_image
+  name: ${now:%Y.%m.%d-%H.%M.%S}_train_diffusion_unet_hybrid_pusht_image
   project: diffusion_policy_debug
-  resume: true
+  resume: false
   tags:
   - train_diffusion_unet_hybrid
   - pusht_image
